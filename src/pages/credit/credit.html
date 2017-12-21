@@ -1,0 +1,20 @@
+<ion-content padding class="transparent-header">
+    <ion-header no-border>
+        <ion-navbar transparent>
+        </ion-navbar>
+    </ion-header>
+    <div id="profile-bg" style="background-image: url('assets/img/background/background-5.jpg')"></div>
+    <div id="content">
+      <div id="profile-info" padding>
+        <img id="profile-image" [src]="'assets/img/avatar/IMG_20171129_222518_896.jpg'"> 
+        <h3 id="profile-name">Nayan Vekariya</h3>
+        <p>Application Developer &bull; INDIA</p>
+        <p class="profile-description">A wise man once said: The more you do something, the better you will become at it.</p>
+        <button ion-button small color="purple" (click)="likeFacebookPage()" ><ion-icon name="logo-facebook" style="margin-right: 5px;"></ion-icon>
+          Like</button>
+        <button ion-button small color="danger" (click)="subscribeOnYoutube()"><ion-icon name="logo-youtube" style="margin-right: 5px;"></ion-icon>Subscribe</button>
+      </div>
+      <hr/>
+    </div>
+  </ion-content>
+  
