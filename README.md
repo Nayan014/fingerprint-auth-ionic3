@@ -1,11 +1,11 @@
-Source: 
+Source:  <br />
 https://ionicframework.com/docs/native/android-fingerprint-auth/
 
 $ ionic cordova plugin add cordova-plugin-android-fingerprint-auth  <br />
 $ npm install --save @ionic-native/android-fingerprint-auth
 
 Note: <br />
-this project will run only on device/mobile. <br />  <br />
+this project will run only on device/mobile. <br />
 
 ================================================================== <br />
 $ ionic info
